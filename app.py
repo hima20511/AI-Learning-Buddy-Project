@@ -122,9 +122,3 @@ if st.button("Generate"):
         st.success("Done!")
         st.write(answer)
 
-# -----------------------------
-# Optional Cache Clear Button
-# -----------------------------
-if st.button("Clear Cached Responses"):
-    st.cache_data.clear()
-    st.success("Cache cleared successfully!")
